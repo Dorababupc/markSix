@@ -3,7 +3,7 @@
     --text-color: white;
 }
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Corinthia:wght@700&family=Meow+Script&family=Merriweather:ital,wght@0,700;0,900;1,700&family=Ubuntu:wght@300;500&display=swap');
-nav{
+footer,nav{
     background-color: var(--primary-color);
 }
 header{
@@ -39,10 +39,15 @@ textarea {
     font-size: large;
     font-family: inherit;
 }
-main{
+
+footer,main{
 margin: auto;
 padding: 1rem;
 max-width: 60%;
+}
+footer{
+    text-align: center;
+    color: var(--text-color);
 }
 
 
